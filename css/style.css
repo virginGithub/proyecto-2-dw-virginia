@@ -156,6 +156,13 @@ input, select, textarea {
 	padding: 50px 20px;
 	margin: 25px;
 }
+.semueve {
+	animation-duration: 3s;
+	animation-name: slidein;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	  }
+
 @media screen and (max-width: 768px) {
 	.footer {
 		font-size: 18px;
